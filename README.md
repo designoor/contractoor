@@ -31,11 +31,11 @@ yarn add @0x50b/contractoor
 Using the library itself is very easy. The main idea is centered around contract objects, which contain the contract name, address, and ABI object.
 
 ```TypeScript
-  interface Contract {
-    name: string
-    address: address
-    abi: Object
-  }
+interface Contract {
+  name: string
+  address: address
+  abi: Object
+}
 ```
 
 Which are then used to define various popular NFT marketplaces.
@@ -56,4 +56,7 @@ import { Marketplaces } from '@0x50b/contractoor'
 
 // Use the approach below, if you wish to access export only some marketplaces.
 import { Blur_2, Blur_3 } from '@0x50b/contractoor'
+
+// You can then use it with ethers like this:
+const seaport = new ethers.Contract(Seaport_16.address, Seaport_16.abi, provider)
 ```
