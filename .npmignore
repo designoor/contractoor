@@ -1,4 +1,7 @@
+.vscode
 src/
+typings/
 tsconfig.json
+tsconfig.cjs.json
 .gitignore
 cover.png

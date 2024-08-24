@@ -1,5 +1,5 @@
 ### Config file ###
-build
+dist
 
 ### VSCode ###
 .vscode/settings.json
