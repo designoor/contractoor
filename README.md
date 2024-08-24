@@ -12,7 +12,7 @@ A simple TypeScript library which collects the most popular NFT marketplaces, th
 
 ## Installation
 
-You can install the package either using [NPM](https://www.npmjs.com/package/projectname) or using [Yarn](https://yarnpkg.com/package/projectname)
+You can install the package either using [NPM](https://www.npmjs.com/package/@0x50b/contractoor) or using [Yarn](https://yarnpkg.com/package?q=contractoor&name=%400x50b%2Fcontractoor)
 
 ### Using NPM
 
