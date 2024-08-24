@@ -12,15 +12,15 @@ A simple TypeScript library which collects the most popular mainnet NFT marketpl
 
 ## Installation
 
-You can install the package either using [NPM](https://www.npmjs.com/package/@0x50b/contractoor) or using [Yarn](https://yarnpkg.com/package?q=contractoor&name=%400x50b%2Fcontractoor)
+You can install the package either using [NPM](https://www.npmjs.com/package/@0x50b/contractoor) or using [Yarn](https://yarnpkg.com/package?q=contractoor&name=%400x50b%2Fcontractoor).
 
-### Using NPM
+**Using NPM**
 
 ```bash
 npm install @0x50b/contractoor
 ```
 
-### Using Yarn
+**Using Yarn**
 
 ```bash
 yarn add @0x50b/contractoor
@@ -62,6 +62,8 @@ const seaport = new ethers.Contract(Seaport_16.address, Seaport_16.abi, provider
 ```
 
 ### Marketplaces
+
+All the currently supported marketplaces. If you would like to add one [submit an issue](https://github.com/designoor/contractoor/issues).
 
 | Marketplace   | Address                                    | ABI |
 |---------------|--------------------------------------------|-----|
