@@ -1,6 +1,9 @@
 ### Config file ###
 build
 
+### VSCode ###
+.vscode/settings.json
+
 ### Linux ###
 *~
 
@@ -225,5 +228,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/osx,macos,windows,linux,node
