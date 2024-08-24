@@ -1,9 +1,12 @@
 {
-  "name": "contractoor",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/0xryowa/contractoor.git",
-  "author": "ryowa <101047698+0xryowa@users.noreply.github.com>",
+  "name": "@0x50b/contractoor",
+  "version": "0.0.1",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designoor/contractoor.git"
+  },
+  "author": "0x50b",
   "license": "MIT",
   "scripts": {
     "build": "npx tsc"
@@ -13,5 +16,10 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
-  "dependencies": {}
+  "description": "",
+  "types": "./build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/designoor/contractoor/issues"
+  },
+  "homepage": "https://github.com/designoor/contractoor#readme"
 }
