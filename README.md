@@ -28,17 +28,7 @@ yarn add @0x50b/contractoor
 
 ## Usage
 
-Using the library itself is very easy. The main idea is centered around contract objects, which contain the contract name, address, and ABI object.
-
-```TypeScript
-interface Contract {
-  name: string
-  address: address
-  abi: Object
-}
-```
-
-Which are then used to define various popular NFT marketplaces.
+Using the library itself is very easy. The main idea is centered around contract objects, which contain the contract name, address, and ABI object. Thats it 🤯
 
 ```TypeScript
 export const Blur_3: Contract = {
