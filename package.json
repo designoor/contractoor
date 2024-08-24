@@ -1,6 +1,6 @@
 {
   "name": "@0x50b/contractoor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "build/index.js",
   "repository": {
     "type": "git",
@@ -9,8 +9,7 @@
   "author": "0x50b",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc",
-    "publish": "npm publish --access public"
+    "build": "npx tsc"
   },
   "devDependencies": {
     "@types/node": "^22.5.0",

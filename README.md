@@ -8,7 +8,7 @@ A simple TypeScript library which collects the most popular NFT marketplaces, th
 
 ## Getting Started
 
-- If you have questions [submit an issue](https://github.com/0xryowa/contractoor/issues) or reach out at [𝕏](https://x.com/0x50b).
+- If you have questions [submit an issue](https://github.com/designoor/contractoor/issues) or reach out at [𝕏](https://x.com/0x50b).
 
 ## Installation
 
@@ -17,13 +17,13 @@ You can install the package either using [NPM](https://www.npmjs.com/package/@0x
 ### Using NPM
 
 ```bash
-npm install projectname
+npm install @0x50b/contractoor
 ```
 
 ### Using Yarn
 
 ```bash
-yarn add projectname
+yarn add @0x50b/contractoor
 ```
 
 ## Usage
