@@ -14,8 +14,6 @@ A simple TypeScript library which collects the most popular NFT marketplaces, th
 
 You can install the package either using [NPM](https://www.npmjs.com/package/projectname) or using [Yarn](https://yarnpkg.com/package/projectname)
 
-> If you wanna checkout latest bugfix or feature, use `npm install web3@dev`
-
 ### Using NPM
 
 ```bash
