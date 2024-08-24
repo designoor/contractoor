@@ -19,11 +19,11 @@ You can install the package either using [NPM](https://www.npmjs.com/package/pro
 ### Using NPM
 
 ```bash
-npm install web3
+npm install projectname
 ```
 
 ### Using Yarn
 
 ```bash
-yarn add web3
+yarn add projectname
 ```
