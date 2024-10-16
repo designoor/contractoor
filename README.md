@@ -4,7 +4,7 @@
 
 # The Contractoor
 
-A simple TypeScript library which collects the most popular mainnet NFT marketplaces, their ABIs, and makes them easily available.
+A simple TypeScript library which collects the most popular ETH mainnet NFT marketplaces, their ABIs, and makes them easily available.
 
 ## Getting Started
 
