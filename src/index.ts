@@ -45,17 +45,15 @@ export const Blur_Blend: C.Contract = {
   abi: blur_blend_abi,
 }
 
-/* ======================== MAP ======================== */
+/* ===================== Exports ======================== */
 
-export const Marketplaces = new Map<C.marketplace, C.Contract>([
-  ['seaport_16', Seaport_16],
-  ['x2y2', X2Y2_Exchange],
-  ['blur_2', Blur_2],
-  ['blur_3', Blur_3],
-  ['blur_bidding', Blur_Bidding],
-  ['blur_blend', Blur_Blend]
-])
-
-/* ====================== EXPORT ======================= */
+export const Marketplaces = {
+  Seaport_16,
+  X2Y2_Exchange,
+  Blur_2,
+  Blur_3,
+  Blur_Bidding,
+  Blur_Blend
+}
 
 export default Marketplaces

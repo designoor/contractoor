@@ -43,8 +43,9 @@ You can either export individual marketplaces, or use them all.
 ```TypeScript
 // Marketplaces is a Map export. If you want to access individual marketplaces, use Marketplaces.get('blur_2')
 import { Marketplaces } from '@0x50b/contractoor'
+const { abi } = Marketplaces.Blur_Bidding
 
-// Use the approach below, if you wish to access export only some marketplaces.
+// Use the approach below, if you wish to access only some marketplaces.
 import { Blur_2, Blur_3 } from '@0x50b/contractoor'
 
 // You can then use it with ethers like this:
@@ -55,11 +56,11 @@ const seaport = new ethers.Contract(Seaport_16.address, Seaport_16.abi, provider
 
 All the currently supported marketplaces. If you would like to add one [submit an issue](https://github.com/designoor/contractoor/issues).
 
-| Marketplace   | Address                                    | ABI |
-|---------------|--------------------------------------------|-----|
-| Seaport 1.6   | 0x0000000000000068F116a894984e2DB1123eB395 | ✅  |
-| Blur: 2       | 0x39da41747a83aeE658334415666f3EF92DD0D541 | ✅  |
-| Blur: 3       | 0xb2ecfE4E4D61f8790bbb9DE2D1259B9e2410CEA5 | ✅  |
-| Blur: Bidding | 0x0000000000A39bb272e79075ade125fd351887Ac | ✅  |
-| Blur: Blend   | 0x29469395eAf6f95920E59F858042f0e28D98a20B | ✅  |
-| X2Y2          | 0x74312363e45DCaBA76c59ec49a7Aa8A65a67EeD3 | ✅  |
+| Marketplace       | Address                                    | ABI |
+|-------------------|--------------------------------------------|-----|
+| Opensea (Seaport) | 0x0000000000000068F116a894984e2DB1123eB395 | ✅  |
+| Blur: 2           | 0x39da41747a83aeE658334415666f3EF92DD0D541 | ✅  |
+| Blur: 3           | 0xb2ecfE4E4D61f8790bbb9DE2D1259B9e2410CEA5 | ✅  |
+| Blur: Bidding     | 0x0000000000A39bb272e79075ade125fd351887Ac | ✅  |
+| Blur: Blend       | 0x29469395eAf6f95920E59F858042f0e28D98a20B | ✅  |
+| X2Y2              | 0x74312363e45DCaBA76c59ec49a7Aa8A65a67EeD3 | ✅  |
